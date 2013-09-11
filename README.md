@@ -41,7 +41,7 @@ Must have changes
 1. Following the screenshot in specs/homePage.png change the Home Page to match
 2. Change the Contact Us page to be user friendly
 3. Pick any photos from Google and modify the Team page to show images of the starting line up
-4. Enable the Statistics page to have sortable columns
+4. Enable the Statistics page to have sortable columns ( Please note, plugin "jQuery plugin: Tablesorter 2.0" was used to achieve this requirement )
 5. Rework the Sponsors page to be more creative
 
 Bonus changes
