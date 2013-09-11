@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GiftCards.com - Schedule - Coding Assessment - Front End Developers</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/layout.css" rel="stylesheet">
+		
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+		
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="container">
+						<div class="row" style="margin:10px auto;">
+							<div class="span8 navigation-container">
+								<ul>
+									<li><a href="/">Home</a></li>
+									<li><a href="/contactus.html">Contact Us</a></li>
+									<li><a href="/sponsors.html">Sponsors</a></li>
+									<li><a href="/stats.html">Statistics</a></li>
+									<li><a href="/team.html">Team</a></li>
+								</ul>
+							</div>
+							<div class="span4 social-icons">
+								<span class="icon-facebook icon-2x"></span>
+								<span class="icon-twitter icon-2x"></span>
+								<span class="icon-google-plus icon-2x"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<a href="/"><img src="images/logo.png" style="padding:5px;" /></a>
+				</div>
+			</div>
+		</div>
+		<div class="container main-body">
+			<div class="row">
+				<div class="span12">
+					<div style="padding:5px;"><h1>2013 Sponsors</h1></div>
+				</div><!--End span12-->
+			</div><!--End row-->
+			<div class="row">
+				<div class="span8"><div class="sponsorImage"><img src="images/logos/Logo-GiftYa.jpg" id="img" class="img_class" style="color:#03C;" /></div></div>
+				<div class="span4"><div class="sponsorMessage"><h2>A very special thank you goes out to all our sponsors! Without them we could not have the great team that we do.</h2></div></div>
+			</div><!--End row-->
+			<div class="row">
+				<div class="span12">
+					&nbsp;
+				</div><!--End span12-->
+			</div><!--End row-->
+			<div class="row-fluid">
+				<div class="span3">
+					<div class="imgSponsor"><img src="images/logos/Logo-GiftCards.jpg" alt="Sponsor Logo" class="roundedBorder" id="change_src" /></div>
+				</div>
+				<div class="span3">
+					<div class="imgSponsor"><img src="images/logos/Logo-MyCoupons.jpg" alt="Sponsor Logo" class="roundedBorder" id="change_src" /></div>
+				</div>
+				<div class="span3">
+					<div class="imgSponsor"><img src="images/logos/SwapAGift.jpg" alt="Sponsor Logo" class="roundedBorder" id="change_src" /></div>
+				</div>
+				<div class="span3">
+					<div class="imgSponsor"><img src="images/logos/Logo-GiftYa.jpg" alt="Sponsor Logo" class="roundedBorder" id="change_src" /></div>
+				</div>
+			</div><!--End row-fluid-->
+			<div class="row">
+				<div class="span12">
+					&nbsp;
+				</div><!--End span12-->
+			</div><!--End row-->
+
+		</div><!--End container main-body-->
+
+
+<script> 
+
+$(document).ready(function(){
+	$('img#change_src').click(function() {
+		 var changtrigger = $(this);
+		$('#img').attr('src', changtrigger.attr('src'));
+	});
+});
+
+</script>
+		<footer>
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="container">
+						<div class="row">
+							<div class="span9 navigation-container">
+								<ul>
+									<li><a href="/">Home</a></li>
+									<li><a href="/contactus.html">Contact Us</a></li>
+									<li><a href="/sponsors.html">Sponsors</a></li>
+									<li><a href="/stats.html">Statistics</a></li>
+									<li><a href="/team.html">Team</a></li>
+								</ul>
+							</div>
+
+							<div class="span3">
+								Pittsburgh Grizzlies<br />
+								Console Energy Center<br />
+								1001 Fifth Avenue,<br />
+								Pittsburgh, PA 15219<br />
+								412.642.1800<br />
+								info@pghgrizzlies.com<br />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	</body>
+</html>
